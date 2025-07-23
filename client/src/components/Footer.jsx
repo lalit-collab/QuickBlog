@@ -8,7 +8,9 @@ const Footer = () => {
 
         <div>
             <img src={assets.logo} alt="logo" className='w-32 sm:w-44'/>
-            <p className='max-w-[410px] mt-6'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum unde quaerat eveniet cumque accusamus atque qui error quo enim fugiat?</p>
+            <p className='max-w-[410px] mt-6'>Welcome to QuickBlog — your space to write, share, and connect. Publish your thoughts effortlessly, explore ideas from others, and make your voice heard.
+
+</p>
         </div>
 
         <div className='flex flex-wrap justify-between w-full md:w-[45%] gap-5'>
@@ -28,7 +30,7 @@ const Footer = () => {
 
 
       </div>
-      <p className='py-4 text-center text-sm md:text-base text-gray-500/80'>Copyright 2025 © QuickBlog - All Right Reserved.</p>
+      <p className='py-4 text-center text-sm md:text-base text-gray-500/80'>Copyright 2025 © Lalit - All Right Reserved.</p>
     </div>
   )
 }
