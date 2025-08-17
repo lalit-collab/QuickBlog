@@ -1,9 +1,9 @@
 Project Type: Blog application with admin panel.
 
 Tech Stack:
-Frontend: React, Vite, JavaScript, React Router DOM, Axios, Tailwind CSS, React Hot Toast, Quill (rich text editor).
-Backend: Node.js, Express.js, MongoDB (likely based on db.js), Mongoose (likely based on models), CORS, Dotenv.
-Other: ImageKit (likely for image storage), Gemini API (likely for AI content generation).
+Frontend: React, Vite, JavaScript, React Router DOM, Axios, Tailwind CSS, React Hot Toast, Quill.
+Backend: Node.js, Express.js, MongoDB , Mongoose, CORS, Dotenv.
+Other: ImageKit , Gemini API .
 
 Architecture:
 The application follows a typical MERN (MongoDB, Express, React, Node.js) stack architecture. It's a full-stack application with a separate client (frontend) and server (backend). The client handles the user interface and interacts with the server via API calls. The server handles data management, business logic, and API endpoints. The admin panel is integrated within the same application, likely using role-based access control.
@@ -55,22 +55,7 @@ Implementation Steps:
      - `AddBlog`: The same `AddBlog` component used for creating new posts.
      - `Login`: Admin login page.
 
-5. MVP Features:
-   - Focus on the core functionality: creating, reading, updating, and deleting blog posts.
-   - Skip the commenting system and newsletter subscription for the MVP.
-   - Use a simple authentication mechanism for the admin panel.
-   - Prioritize functionality over advanced styling or features.
+5. Deployment:
+   - INSTRUCTION: Deploy the frontend to a platform like Vercel.
+   - INSTRUCTION: Deploy the backend to a platform like Vercel.
 
-6. Deployment:
-   - INSTRUCTION: Deploy the frontend to a platform like Vercel or Netlify.
-   - INSTRUCTION: Deploy the backend to a platform like Heroku or Render.
-
-Specific AI Coding Assistant Instructions:
-
-- When creating API endpoints, ensure proper error handling and validation.
-- When implementing authentication, use bcrypt for password hashing (even for the MVP).
-- When creating React components, use functional components with hooks.
-- When making API calls, handle loading states and errors gracefully.
-- Follow best practices for code organization and readability.
-- Generate concise and well-documented code.
-- Prioritize security and efficiency in the generated code.
