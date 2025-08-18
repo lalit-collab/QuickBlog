@@ -1,8 +1,11 @@
 Project Type: Blog application with admin panel.
 
 Tech Stack:
+
 Frontend: React, Vite, JavaScript, React Router DOM, Axios, Tailwind CSS, React Hot Toast, Quill.
+
 Backend: Node.js, Express.js, MongoDB , Mongoose, CORS, Dotenv.
+
 Other: ImageKit , Gemini API .
 
 Architecture:
